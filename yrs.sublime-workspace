@@ -1,0 +1,528 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"foo",
+				"footera"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"u",
+				"userData"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"db",
+				"dbpassword"
+			],
+			[
+				"count",
+				"countdowny"
+			],
+			[
+				"countd",
+				"countdown"
+			],
+			[
+				"f",
+				"font-family"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"sc",
+				"score"
+			],
+			[
+				"leaderboard",
+				"Leaderboard"
+			],
+			[
+				"best",
+				"bestscore"
+			],
+			[
+				"other",
+				"other3"
+			],
+			[
+				"questio",
+				"question"
+			],
+			[
+				"mysqli_fe",
+				"mysqli_fetch_array"
+			],
+			[
+				"nu",
+				"numberarray"
+			],
+			[
+				"rss",
+				"rssfeed"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"Se",
+				"sans-serif"
+			],
+			[
+				"text",
+				"textboxy"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"cale",
+				"Calendar"
+			],
+			[
+				"If",
+				"IFRAME	Tag"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"borden",
+				"bordengrammar"
+			],
+			[
+				"bor",
+				"bordengrammarapp"
+			],
+			[
+				"bordengr",
+				"bordengrammarapp"
+			],
+			[
+				"bo",
+				"bordengrammarapp"
+			],
+			[
+				"borde",
+				"bordengrammar"
+			],
+			[
+				"SAN",
+				"SANS_BOLD"
+			],
+			[
+				"SANS",
+				"SANS_SEMIBOLD"
+			],
+			[
+				"SA",
+				"SANS_LIGHT"
+			],
+			[
+				"input",
+				"inputreverse"
+			],
+			[
+				"in",
+				"inputy"
+			],
+			[
+				"inp",
+				"inputy"
+			],
+			[
+				"Bor",
+				"Borden"
+			],
+			[
+				"w",
+				"will"
+			],
+			[
+				"ite",
+				"Item"
+			],
+			[
+				"T",
+				"TAG"
+			],
+			[
+				"A",
+				"MainActivity"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+			[
+				"SSH",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/A/Quiz/Moodle/theme/fintheme/less/bootstrap/navbar.less",
+		"/A/Quiz/Moodle/theme/fintheme/less/bootstrap/variables.less",
+		"/A/Quiz/Moodle/theme/fintheme/config.php",
+		"/A/Quiz/Moodle/theme/fintheme/layout/login.php",
+		"/C/Users/Finley/Downloads/coming_soon_page-pack (1)/coming_soon_page_pack/newmail.php",
+		"/C/Users/Finley/thing_edge.js",
+		"/C/Users/Finley/Downloads/keywords.txt",
+		"/C/Users/Finley/Downloads/keywords (1).txt",
+		"/C/Users/Finley/Downloads/coming_soon_page-pack (1)/coming_soon_page_pack/mobile/index.html",
+		"/C/Users/Finley/Downloads/coming_soon_page-pack (1)/coming_soon_page_pack/smartphone/index.html",
+		"/C/Users/Finley/Downloads/coming_soon_page-pack (1)/coming_soon_page_pack/web/index.html",
+		"/C/Users/Finley/Downloads/coming_soon_page-pack (1)/coming_soon_page_pack/index.php",
+		"/A/Quiz/Moodle/theme/fintheme/layout/columns3.php",
+		"/C/Users/Finley/Downloads/coming_soon_page-pack (1)/coming_soon_page_pack/.htaccess",
+		"/C/Users/Finley/Downloads/coming_soon_page-pack (1)/coming_soon_page_pack/web/.htaccess",
+		"/A/Quiz/Moodle/theme/fintheme/layout/secure.php",
+		"/A/Quiz/Moodle/theme/fintheme/less/README",
+		"/A/Quiz/Moodle/theme/fintheme/lang/en/theme_fintheme.php",
+		"/A/Quiz/Moodle/theme/fintheme/layout/columns1.php",
+		"/A/Quiz/Moodle/theme/fintheme/layout/columns2.php",
+		"/A/Quiz/Moodle/theme/fintheme/layout/popup.php",
+		"/A/Quiz/Moodle/theme/fintheme/renderers/core_renderer.php",
+		"/A/Quiz/Moodle/theme/fintheme/style/moodle.css",
+		"/A/Quiz/Moodle/theme/fintheme/layout/maintenance.php",
+		"/A/Quiz/Moodle/theme/fintheme/less/bootstrap/accordion.less",
+		"/A/Quiz/Moodle/theme/fintheme/version.php",
+		"/A/Quiz/Moodle/theme/fintheme/readme_moodle.txt",
+		"/A/Quiz/Moodle/theme/fintheme/less/moodle.less",
+		"/A/Quiz/Moodle/theme/fintheme/less/editor.less",
+		"/A/Quiz/Moodle/theme/fintheme/layout/embedded.php",
+		"/A/Quiz/Moodle/theme/bootstrapbase/config.php",
+		"/A/Quiz/Moodle/theme/clean/config.php",
+		"/A/Quiz/Moodle/theme/clean/version.php",
+		"/A/Quiz/Moodle/theme/clean/settings.php",
+		"/A/Quiz/Moodle/theme/clean/README.txt",
+		"/A/Quiz/Moodle/theme/clean/lib.php",
+		"/A/Quiz/Moodle/theme/bootstrapbase/less/README",
+		"/A/Quiz/Moodle/theme/bootstrapbase/README.txt",
+		"/A/Quiz/Moodle/admin/index.php",
+		"/A/Quiz/Moodle/config.php",
+		"/C/eula.3082.txt",
+		"/C/Users/Finley/Documents/routerpassword.txt",
+		"/A/jakewright.txt",
+		"/A/Quiz/config.ini",
+		"/A/Quiz/favicon.ico",
+		"/A/Quiz/favicon.png",
+		"/C/Users/Finley/Documents/Quiz/index.html",
+		"/A/Quiz/index.html",
+		"/A/Quiz/.htaccess",
+		"/A/Quiz/js/scripts.js",
+		"/A/Quiz/newscore.php",
+		"/A/Quiz/leaderboard.php",
+		"/A/Quiz/result.php",
+		"/A/Quiz/main.php",
+		"/C/Users/Finley/Documents/Quiz/result.php",
+		"/C/Users/Finley/Documents/Quiz/newuser.php",
+		"/A/Quiz/adminpanel.php",
+		"/A/Quiz/adminlogin.html",
+		"/C/Users/Finley/Documents/Quiz/newscore.php",
+		"/A/Quiz/newuser.php",
+		"/C/Users/Finley/Documents/Quiz/main.php",
+		"/C/Users/Finley/Documents/Quiz/leaderboard.php",
+		"/C/Users/Finley/Documents/Quiz/adminpanel.php",
+		"/C/Users/Finley/Documents/Online News Provider/config.ini",
+		"/C/Users/Finley/Documents/Online News Provider/index.html",
+		"/A/botheed.txt",
+		"/C/Program Files (x86)/Origin Games/Battlefield 3/Support/readme/readme.txt",
+		"/C/Users/Finley/AppData/Local/Temp/Temp1_Truepixel (RockingTemplates.com) (1).zip/Truepixel (RockingTemplates.com)/Truepixel (RockingTemplates.com).xml",
+		"/C/Users/Finley/Downloads/cmatrix-1.2a (1).tar/cmatrix-1.2a (1)/cmatrix-1.2a/cmatrix.c",
+		"/C/Users/Finley/Documents/Online News Provider/rss/index.php",
+		"/A/My Portfolio/README.txt",
+		"/C/Users/Finley/Documents/Online News Provider/submit.php",
+		"/C/Users/Finley/Documents/Online News Provider/json/index.php",
+		"/C/Users/Finley/Documents/Online News Provider/json/XmlToJson.php",
+		"/C/Users/Finley/Documents/Torrents/[ www.TorrentDay.com ] - Our.Queen.480p.HDTV.x264-mSD/First Read This Guide.txt",
+		"/C/Users/Finley/Documents/Online News Provider/help/index.html",
+		"/C/Users/Finley/Documents/Online News Provider/css/css.css",
+		"/C/Users/Finley/Documents/Online News Provider/get/index.php",
+		"/C/Users/Finley/Documents/OS X 10.9/config.ini",
+		"/C/Users/Finley/Documents/Torrents/ksp-win-0-23-5/KSP_win/readme.txt",
+		"/C/Users/Finley/Documents/Online News Provider/README.MD",
+		"/C/Users/Finley/Documents/Online News Provider/feed/index.php",
+		"/C/Users/Finley/Documents/Online News Provider/.htaccess",
+		"/A/101004.html",
+		"/C/Users/Finley/Downloads/CurrentMoodWidgetProject/CurrentMoodWidgetProject/res/xml/widgetproviderinfo.xml",
+		"/C/Users/Finley/Downloads/CurrentMoodWidgetProject/CurrentMoodWidgetProject/src/oreillymedia/cookbook/android/spikes/CurrentMoodWidgetProvider.java",
+		"/C/Users/Finley/Downloads/CurrentMoodWidgetProject/CurrentMoodWidgetProject/src/oreillymedia/cookbook/android/spikes/CurrentMoodService.java",
+		"/C/Users/Finley/Downloads/CurrentMoodWidgetProject/CurrentMoodWidgetProject/AndroidManifest.xml",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/values/strings.xml",
+		"/C/Users/Finley/Documents/ecal/ExtendedCalendarView/ExtendedCalendarView/res/values/strings.xml",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/calender/Event.java",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/calender/ExtendedCalendarView.java",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/calender/CalendarProvider.java",
+		"/C/Users/Finley/.VirtualBox/VirtualBox.xml",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/README.md",
+		"/F/README_Spanish.html",
+		"/A/website-bootstrap/deploy/jquery.parallax.js",
+		"/A/website-bootstrap/assets/scripts/js/libraries.min.js",
+		"/A/website-bootstrap/fancy.html",
+		"/A/website-bootstrap/index.html",
+		"/A/website-bootstrap/assets/styles/css/styles.css",
+		"/A/website-bootstrap/css/css.css",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/calender/CalendarAdapter.java",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/calender/Day.java",
+		"/C/Users/Finley/Documents/ecal/ExtendedCalendarView/ExtendedCalendarView/res/values/styles.xml",
+		"/S/web]/index.html",
+		"/A/My website/assets/Preview 7.html",
+		"/C/Program Files (x86)/Windows MultiPoint Mouse SDK/Samples/TicTacToe/App.xaml.cs",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/drawable/main_selector.xml",
+		"/A/My website/assets/boilerplate.css",
+		"/A/My website/assets/css.css",
+		"/C/Users/Finley/AppData/Local/Temp/7zO4AA9.tmp/KILLME.CPP",
+		"/C/Users/Finley/AppData/Local/Temp/7zOF0A1.tmp/GOOF.C",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/drawable/tab_indicator_ab_example.xml",
+		"/C/Users/Finley/AppData/Local/Temp/7zOA8C8.tmp/SONGYACC.C",
+		"/C/Users/Finley/.gradle/gradle.properties",
+		"/A/Desktop/Java Coding/Learning/Triangle area/src/area.java",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/values/attrs.xml",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/drawable/triangle.xml",
+		"/A/Desktop/Java Coding/Learning/Learn Java/src/Test.java",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/res/values/attrs_fancy_text_view.xml",
+		"/C/Users/Finley/AppData/Local/Temp/Temp1_twitter4j-4.0.1.zip/lib/readme-libs.txt",
+		"/A/Desktop/FINLEY-LAPTOP.txt",
+		"/C/Program Files (x86)/Steam/SteamApps/common/Team Fortress 2/tf/gameinfo.txt",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/Application.java",
+		"/C/Users/Finley/AppData/Local/Android/android-studio/sdk/tools/adb_has_moved.txt",
+		"/C/Users/Finley/AndroidStudioProjects/BordenGrammarApp/BGSapp/src/main/java/com/bordengrammar/bordengrammarapp/GMapV2Direction.java",
+		"/F/Crack/Install.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"desc",
+			"loginpanel desc",
+			"loginpanel",
+			".loginbox .loginpanel .desc",
+			"desc",
+			"navbar .btn",
+			"btn",
+			"toggle",
+			"button",
+			"brand",
+			"15",
+			"bootstrapbase",
+			"clean",
+			"clean\n",
+			"cleam\n",
+			">');\n",
+			"newuser",
+			");\n",
+			"score",
+			"echo($id)",
+			"h2",
+			"h1",
+			"?>",
+			"\">\n",
+			"title",
+			"titl",
+			"h1",
+			"body",
+			"images",
+			"fov",
+			"funstuff"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fintheme",
+			"immutate",
+			"correct",
+			"//echo($id)",
+			"h4",
+			"h2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 314.0,
+	"status_bar_visible": true
+}
