@@ -1,3 +1,177 @@
-body {
-	color: #ffffff;
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+body    {font-family: 'Lato', sans-serif; color: #fff;}
+
+
+h1      {font-size:120px; font-weight: 100; text-align: center; margin-bottom: 60px;}
+h1 span {font-weight: 500;}
+
+h2      {font-size: 36px; padding: 0 0 20px 0; font-weight: 700;}
+
+p       {font-size:24px; font-weight: 300; line-height:110%; -webkit-font-smoothing: subpixel-antialiased;}
+p span  {font-size:16px; font-style: italic; display: block; margin-top: 20px;}
+
+
+.l-text     {text-align: right; width: 450px; float: left;}
+.r-text     {text-align: left; width: 450px; float: right;}
+#la-chaise  {width: 400px;}
+
+.l-image    {float: left; width: 451px;}
+.r-image    {float: right; width: 451px;}
+#chaise     {float: right; width: 581px;}
+
+.l-image img    {max-width:100%;}
+.r-image img    {max-width:100%;}
+#chaise img     {max-width:100%;}
+
+
+.container {position:absolute; top:50%; left:50%; margin:-250px 0 0 -512px; width:1024px; height: 500px;} 
+
+
+
+/*TITLE COVER*/
+    #section-1          {background-color: #CE4D27;}
+    #section-1 .header  {position:absolute; top:30%; left:50%; margin:-0px 0 0 -400px; width:800px; text-align:center;}
+    #section-1 img      {position: absolute; bottom: 10px; left:50%; margin: 0 0 0 -44px;}
+
+
+/*COCONUT CHAIR*/
+    #section-2          {background-color: #9BAFD8;}
+    #section-2 .r-text  {margin: 138px 0 0 0;}
+
+/*RAR ARMCHAIR*/
+    #section-3          {background-color: #4BB263;}
+    #section-3 .l-text  {margin: 132px 0 0 0;}
+
+/*WIGGLE ARMCHAIR*/
+    #section-4          {background-color: #2F8CCC;}
+    #section-4 .r-text  {margin: 140px 0 0 0;}
+
+/*CHERNER ARMCHAIR*/
+    #section-5          {background-color: #E37225;}
+    #section-5 .l-text  {margin: 145px 0 0 0;}
+
+/*ZIG ZAG CAHIR*/
+    #section-6          {background-color: #B5BAC0;}
+    #section-6 .r-text  {margin: 100px 0 0 0;}   
+
+/*EGG CHAIR*/
+    #section-7          {background-color: #1abc9c;}
+    #section-7 .l-text  {margin: 132px 0 0 0;}    
+
+/*LCW ARMCHAIR*/
+    #section-8          {background-color: #EDBD1D;}
+    #section-8 .r-text  {margin: 95px 0 0 0;}   
+
+/*LA CHAISE*/
+    #section-9          {background-color: #2F8CCC;}
+    #section-9 .l-text  {margin: 120px 0 0 0;}
+
+
+
+
+
+
+/*LLI DESIGN*/
+    #section-10         {background-color: #263647; text-align:center;}
+    .lli-container      {position:absolute; top:50%; left:50%; width: 890px; height: 350px; margin: -175px 0 0 -445px;}
+    .lli-container-img  {float: left; width: 91px; padding: 110px 110px 110px 0; border-right: 1px white solid;}
+    .lli-container-img img  {max-width: 100%;}
+
+    .lli-container p    {padding: 100px 0 0 110px; width: 571px; text-align: left; float: left;}
+
+    .social-buttons     {position: absolute; bottom: 50px; left:50%; width: 400px; margin: 0 0 0 -200px;}
+
+
+/*404 ERROR PAGE*/
+    #error-background   {background-color: #1abc9c;  position: fixed; top: 0; left: 0; width: 100%; min-height: 100%;}
+    #error              {position:absolute; top:30%; left:50%; margin:0 0 0 -350px; width:700px; text-align:center;}
+    a                   {color: white;}
+
+
+
+/*FANCY BOX*/
+    #inline1    {padding:30px; text-align: center;}
+
+
+
+
+
+
+
+
+/*width between 1025 - 1300*/
+@media only screen 
+and (min-width : 1025px) 
+and (max-width : 1300px) {
+
+    h1      {font-size:96px; margin-bottom: 60px;}
+    h2      {font-size:29px; padding: 0 0 20px 0; }
+    p       {font-size:19px;}
+    p span  {font-size:13px; margin-top:16px;}
+
+    .l-text     {width: 360px;}
+    .r-text     {width: 360px;}
+
+    .l-image                {float:left; width:361px;}
+    .r-image                {float:right; width:361px;}
+    #la-chase-img           {float:right; width:465px;}
+
+    .container {margin:-200px 0 0 -410px; width:810px; height: 400px;} 
+
+    #section-1 .header  {margin:0 0 0 -320px; width:640px;}
+
+
+/*   HAVENT CHANGED THE SCROLL ARROW CSS   */
+
+
+/*COCONUT CHAIR*/
+    #section-2 .r-text  {margin: 110px 0 0 0;}
+
+/*RAR ARMCHAIR*/
+    #section-3 .l-text  {margin: 106px 0 0 0;}
+
+/*WIGGLE ARMCHAIR*/
+    #section-4 .r-text  {margin: 112px 0 0 0;}
+
+/*CHERNER ARMCHAIR*/
+    #section-5 .l-text  {margin: 116px 0 0 0;}
+
+/*ZIG ZAG CAHIR*/
+    #section-6 .r-text  {margin: 80px 0 0 0;}   
+
+/*EGG CHAIR*/
+    #section-7 .l-text  {margin: 106px 0 0 0;}    
+
+/*LCW ARMCHAIR*/
+    #section-8 .r-text  {margin: 95px 0 0 0;}   
+
+/*LA CHAISE*/
+    #section-9 .l-text  {margin: 96px 0 0 0;}
+    #la-chaise          {width:320px;}
+    #chaise             {width:465px;}
+
+
+
+/*LLI DESIGN*/
+    .lli-container      {width: 712px; height: 280px; margin: -140px 0 0 -356px;}
+    .lli-container-img  {padding: 88px 88px 88px 0; width: 73px;}
+    .lli-container p    {padding: 72px 0 0 88px; width: 457px;}
+
+    .social-buttons     {width: 320px; margin: 0 0 0 -160px;}
+
+
+/*404 ERROR PAGE*/
+    #error              {margin:0 0 0 -280px; width:560px;}
+
+
 }
+
+
+
+
+
+
+
+
