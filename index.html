@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An encryption service that keeps you away from greed">
+    <meta name="author" content="Finley Smith, Jack Hutton and Jamie Worthingtan">
+    
+
+    <title>Wherecryption</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- owl carousel css -->
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.transitions.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+    <script type="text/javascript" src="//openspace.ordnancesurvey.co.uk/osmapapi/openspace.js?key=FE4E69044AAC7168E0430B6CA40AE33D"></script>
+<script type= "text/javascript" src="//openspace.ordnancesurvey.co.uk/osmapapi/script/mapbuilder/basicmap.js"></script>
+<script type= "text/javascript" src="//openspace.ordnancesurvey.co.uk/osmapapi/script/mapbuilder/searchbox.js"></script>
+<script type="text/javascript">
+function initmapbuilder()
+{
+//initiate the map
+var options = {resolutions: [2500, 1000, 500, 200, 100, 50, 25, 10, 5, 4, 2.5, 2, 1]};
+osMap = new OpenSpace.Map('map', options);
+
+//configure map options (basicmap.js)
+setglobaloptions();
+// add a box displaying co-ordinates (mouse over map to display) 
+makegrid()
+//add a postcode/gazetteer search box (see searchbox.js)
+addSearchBox(1);
+//set the center of the map and the zoom level
+osMap.setCenter(new OpenSpace.MapPoint(590522.43161111,162328),11);}
+</script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="background-image-overlay"></div>
+
+    <div id="outer-background-container" data-default-background-img="images/other_images/bg5.jpg" style="background-image:url(images/other_images/bg5.jpg);"></div>
+    <!-- end: #outer-background-container -->    
+
+    <!-- Outer Container -->
+    <div id="outer-container">
+
+      <!-- Left Sidebar -->
+      <section id="left-sidebar">
+        
+        <div class="logo">
+          <a href="#intro" class="link-scroll"><img src="images/other_images/logo.png" alt="ENCRYPT"></a>
+        </div><!-- .logo --->
+
+        <!-- Menu Icon for smaller viewports -->
+        <div id="mobile-menu-icon" class="visible-xs" onClick="toggle_main_menu();"><span class="glyphicon glyphicon-th"></span></div>
+
+        <ul id="main-menu">
+          <li id="menu-item-text" class="menu-item scroll"><a href="#text">Why our encyription</a></li>
+          <li id="menu-item-carousel" class="menu-item scroll"><a href="#carousel">Encryption</a></li>
+          <li id="menu-item-grid" class="menu-item scroll"><a href="#grid">Tools</a></li>
+          <!--<li id="menu-item-featured" class="menu-item scroll"><a href="#featured">More Tools</a></li>-->
+          <li id="menu-item-contact" class="menu-item scroll"><a href="#contact">Contact</a></li>
+        </ul><!-- #main-menu -->
+
+      </section><!-- #left-sidebar -->
+      <!-- end: Left Sidebar -->
+
+      <section id="main-content" class="clearfix">
+        
+        <article id="intro" class="section-wrapper clearfix" data-custom-background-img="images/other_images/bg5.jpg">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-10 col-md-9 pull-right">
+
+                <section class="feature-text">
+                  <h1>ENCRYPTION & more</h1>
+                  <p>We have developed the latest in encyription and handy tools for you to use free of charge.</p>
+                  <p><a href="#text" class="link-scroll btn btn-outline-inverse btn-lg">find out more</a></p>
+                </section>
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+
+        <article id="text" class="section-wrapper clearfix" data-custom-background-img="images/other_images/bg1.jpg">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-10 col-md-9 pull-right">
+
+                <h1 class="section-title">Why Our Encryption</h1>
+
+                <p class="feature-paragraph">Our encryption uses state of the art ground breaking technology. We strive to use the latest technologies, to make sure your data is secure</p>
+                <h4>How?</h4>
+                <p>By using technologies like geolocation and the latest state of the art servers, our algorithm is completly unquie, setting it out from the competition</p>
+                
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+
+        <article id="carousel" class="section-wrapper clearfix" data-custom-background-img="images/other_images/bg6.jpg">
+          <div class="content-wrapper clearfix">
+
+              <div id="features-carousel" class="carousel slide with-title-indicators max-height" data-height-percent="70" data-ride="carousel">
+                
+                <!-- Indicators - slide navigation -->
+                <ol class="carousel-indicators title-indicators">
+                  <li data-target="#features-carousel" data-slide-to="0" class="active">Encrypt</li>
+                  <li data-target="#features-carousel" data-slide-to="1">Decrypt</li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                  <div class="item active">
+                    <div class="carousel-text-content">
+                      <h2 class="title">Encrypt</h2>
+                      <p>Use state of the art technology</p></p>
+                      <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-2');" class="btn btn-outline-inverse btn-sm">encrypt</a></p>
+
+                      <div class="content-to-populate-in-modal" id="modal-content-2">
+                        <h1>Encrypt</h1>
+                        <div id="stupidmodal">
+                        <form class="form-style validate-form clearfix" action="encrypt.php" method="POST">
+                          <!-- form left col -->
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key1" placeholder="Key 1" name="key1">
+                            </div>  
+                            <div class="form-group">
+                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key2" placeholder="Key 2" name="key2">
+                            </div>
+                            <div class="form-group">
+                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key3" placeholder="Key 3" name="key3">
+                            </div>  
+                            <div class="form-group">
+                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key4" placeholder="Key 4" name="key4">
+                            </div>
+                            <div class="form-group">
+                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key5" placeholder="Postcode" name="post">
+                            </div>
+                            
+                          </div><!-- end: form left col -->
+
+                    <!-- form right col -->
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <textarea placeholder="Data..." class="form-control validate-field required" name="data"></textarea>
+                            </div> 
+                            <div class="radiogaga" style="padding: 22px;">
+                              <input type="radio" name="comp" value="1">1
+                              <input type="radio" name="comp" value="4">4
+                              <input type="radio" name="comp" value="16">16
+                              <input type="radio" name="comp" value="64">64
+                            </div>
+                            <div class="form-group">
+                              <img src="images/theme_images/loader-form.GIF" class="form-loader">
+                              <button type="submit" class="btn btn-sm btn-outline-inverse">Submit</button>
+                            </div> 
+                            <div class="form-group form-general-error-container"></div>           
+                          </div><!-- end: form right col -->
+                        </form>
+                        </div>
+                        <div id="map" style="border: 1px solid black; width:540px; height:440px;"></div>
+                      </div><!-- #modal-content-2 -->
+                    </div>
+                  </div><!-- .item -->
+                  <div class="item">
+                    <div class="carousel-text-content">
+                      <h2 class="title">Decrypt</h2>
+                      <p>Use state of the art technology</p></p>
+                      <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-2');" class="btn btn-outline-inverse btn-sm">Decrypt</a></p>
+
+                      <div class="content-to-populate-in-modal" id="modal-content-2">
+                        <h1>Decrypt</h1>
+                        <h5>Please make sure the keys are 16 digits long</h5>
+                        <div id="stupidmodal">
+                        <form class="form-style validate-form clearfix" action="encrypt.php" method="POST">
+                          <!-- form left col -->
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key1" placeholder="Key 1 (Numbers Only)" name="key1">
+                            </div>  
+                            <div class="form-group">
+                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key2" placeholder="Key 2 (Numbers Only)" name="key2">
+                            </div>
+                            <div class="form-group">
+                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key3" placeholder="Key 3 (Numbers Only)" name="key3">
+                            </div>  
+                            <div class="form-group">
+                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key4" placeholder="Key 4 (Numbers Only)" name="key4">
+                            </div>
+                            <div class="form-group">
+                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key5" placeholder="Postcode" name="post">
+                            </div>
+                            
+                          </div><!-- end: form left col -->
+
+                    <!-- form right col -->
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <textarea placeholder="Data..." class="form-control validate-field required" name="data"></textarea>
+                            </div> 
+                            <div class="radiogaga" style="padding: 22px;">
+                              <input type="radio" name="comp" value="1">1
+                              <input type="radio" name="comp" value="4">4
+                              <input type="radio" name="comp" value="16">16
+                              <input type="radio" name="comp" value="64">64
+                            </div>
+                            <div class="form-group">
+                              <img src="images/theme_images/loader-form.GIF" class="form-loader">
+                              <button type="submit" class="btn btn-sm btn-outline-inverse">Submit</button>
+                            </div> 
+                            <div class="form-group form-general-error-container"></div>           
+                          </div><!-- end: form right col -->
+                        </form>
+                        </div>
+                        <!--<div id="map" style="border: 1px solid black; width:540px; height:440px;"></div>-->
+                      </div><!-- #modal-content-2 -->
+                    </div>
+                  </div><!-- .item -->
+
+                  
+                  
+
+                </div><!-- .carousel-inner -->
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#features-carousel" data-slide="prev"></a>
+                <a class="right carousel-control" href="#features-carousel" data-slide="next"></a>
+
+              </div><!-- #about-carousel -->
+
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+
+        <article id="grid" class="section-wrapper clearfix" data-custom-background-img="images/other_images/bg2.jpg">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-10 col-md-9 pull-right">
+
+                <h1 class="section-title">Text to Binary/Morse Converter</h1>
+                <p class="feature-paragraph">Wanna have some binary or your does of morse? Get it here.</p>
+                <div class="col-md-6">
+                  <form class="form-style clearfix" action="binary.php" method="POST">
+                      <div class="form-group">
+                        <textarea placeholder="Data to make binary..." class="form-control validate-field required" name="message"></textarea>
+                      </div> 
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-sm btn-outline-inverse">Submit</button>
+                      </div>
+                  </form>
+                </div>
+                <div class="col-md-6">
+                <form class="form-style clearfix" action="morse.php" method="POST">
+                  
+                      <div class="form-group">
+                        <textarea placeholder="Data to make morse..." class="form-control validate-field required" name="message"></textarea>
+                      </div> 
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-sm btn-outline-inverse">Submit</button>
+                </form>
+                </div>
+                
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+
+        
+
+        <article id="contact" class="section-wrapper clearfix" data-custom-background-img="images/other_images/bg4.jpg">
+          <div class="content-wrapper clearfix">
+            
+              <h1 class="section-title">Contact</h1>
+              
+                <!-- CONTACT DETAILS -->
+                <div class="contact-details col-sm-5 col-md-3">
+                  <p>This was a project for the <a href="www.festivalofco.de">Festival of Code</a> by:</p>
+                  <p><a href="www.finleys.tk">Finley Smith</a>, Jack Hutton and Jamie Worthington</p>
+                  <p>We are not legally responsible for any damaged caused due to any of our products.</p>
+                </div>
+                <!-- END: CONTACT DETAILS -->
+
+                <!-- CONTACT FORM -->
+                <div class="col-sm-7 col-md-9">
+                  <!-- IMPORTANT: change the email address at the top of the php/mail.php file to the email address that you want this form to send to -->
+                  <form class="form-style validate-form clearfix" action="mailto:epicfinley@gmail.com" method="POST" role="form">
+
+                    <!-- form left col -->
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" class="text-field form-control validate-field required" data-validation-type="string" id="form-name" placeholder="Full Name" name="name">
+                      </div>  
+                      <div class="form-group">
+                        <input type="email" class="text-field form-control validate-field required" data-validation-type="email" id="form-email" placeholder="Email Address" name="email">
+                      </div>
+                    </div><!-- end: form left col -->
+
+                    <!-- form right col -->
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <textarea placeholder="Message..." class="form-control validate-field required" name="message"></textarea>
+                      </div> 
+                      <div class="form-group">
+                        <img src="images/theme_images/loader-form.GIF" class="form-loader">
+                        <button type="submit" class="btn btn-sm btn-outline-inverse">Submit</button>
+                      </div> 
+                      <div class="form-group form-general-error-container"></div>           
+                    </div><!-- end: form right col -->
+
+                  </form>
+                </div><!-- end: CONTACT FORM -->
+
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+
+      </section><!-- #main-content -->
+
+      <!-- Footer -->
+      <section id="footer">
+
+        <!-- Go to Top -->
+        <div id="go-to-top" onclick="scroll_to_top();"><span class="icon glyphicon glyphicon-chevron-up"></span></div>
+
+        
+
+        <!-- copyright text -->
+        <div class="footer-text-line">Wherecryption</div>
+      </section>
+      <!-- end: Footer -->      
+
+    </div><!-- #outer-container -->
+    <!-- end: Outer Container -->
+
+    <!-- Modal -->
+    <!-- DO NOT MOVE, EDIT OR REMOVE - this is needed in order for popup content to be populated in it -->
+    <div class="modal fade" id="common-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <div class="modal-body">
+          </div><!-- .modal-body -->
+        </div><!-- .modal-content -->
+      </div><!-- .modal-dialog -->
+    </div><!-- .modal -->    
+
+    <!-- Javascripts
+    ================================================== -->
+
+    <!-- Jquery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Easing - for transitions and effects -->
+    <script src="js/jquery.easing.1.3.js"></script>
+
+    <!-- background image strech script -->
+    <script src="js/jquery.backstretch.min.js"></script>
+    <!-- background image fix for IE 9 or less
+       - use same background as set above to <body> -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      jQuery("#outer-background-container").backstretch("images/other_images/bg5.jpg");
+    });
+    </script> 
+    <![endif]-->  
+
+    <!-- detect mobile browsers -->
+    <script src="js/detectmobilebrowser.js"></script>
+
+    <!-- owl carousel js -->
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- Custom functions for this theme -->
+    <script src="js/functions.min.js"></script>
+    <script src="js/initialise-functions.js"></script>
+
+    <!-- IE9 form fields placeholder fix -->
+    <!--[if lt IE 9]>
+    <script>contact_form_IE9_placeholder_fix();</script>
+    <![endif]--> 
+
+    <!-- GA -->
+    
+
+  </body>
+</html>

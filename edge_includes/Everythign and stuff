@@ -1,0 +1,27 @@
+1: What it does
+2: Input's
+3: Outputs
+
+
+Ascii image to text converter: (could use to turn encrypted text into an image)
+    Converts images into text using ascii characters (looks at RGB vals for each pixel, converts using ascii).
+    I: Image URL/link such as 'D:\images\image1.png' (will need to change this possibly, can we data stream images?)
+    O: A string of characters.
+    
+Ascii text to image converter: (could use to turn encrypted images back into encrypted text)
+    Converts text into images (text ascii values are used as RGB vals for each pixel).
+    I: string, save location and name such as 'D:\images\image1.png', file type such as 'PNG'
+    O: saves the image to the specified location.
+    
+Morse code 2 way converter: (possible extra functino for the website)
+    Converts characters to Morse code and vice versa. Checks to see whether the string is Morse or charactesr first.
+    I: string (Characters or Morse)
+    O: string (Morse or Characters)
+    
+text to binary converter:  (possible extra functino fo rthe website)
+    Converts inputted text into binary (just 0s and 1s). NOTE: currently no inverse converter.
+    I: string (Characters)
+    O: string (Binary)
+    
+NOTE: Reccomended to use the 4 converters above. The old ones work buth their problems are explained as comments
+      at the start of the file. Best to use these new converters. 

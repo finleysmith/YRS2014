@@ -1,0 +1,17 @@
+Todo by 5pm today:
+
+1) Integrate the python code into finley's html infrastructure, whilst keeping scalabilty.
+
+    -http://blog.idealmind.com.br/desenvolvimento-web/php/how-to-execute-python-script-from-php-and-show-output-on-browser/ -Run python from PHP                                                                      -Build web servers in Python
+    
+2) Get encryption program working (and decryption).
+
+3) Get the Ordnance survey map working. 
+    -This website has a working ordnance survey map. Is it possible to check/rip code from it?
+        http://www.geointeractive.co.uk/osmap.htm
+
+4) Check presentation and script and make any wanted modifications.
+
+5)  Have all content referanced at hack.youingrewiredstate.org (not active yet)
+    Have all code on Github (so that YRS can see it)
+    Have the presentation uploaded to http://www.slideshare.net/
