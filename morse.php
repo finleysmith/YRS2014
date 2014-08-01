@@ -32,7 +32,7 @@
 <?php
 $message = $_POST['message'];
 //str_replace(" ", "!", $message);
-$result = exec("python morse.py " . $message);
+$result = exec("python morse.py \"" . $message."\"");
 echo $result;
 ?>
 </body>

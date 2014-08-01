@@ -18,6 +18,9 @@ insert5b = sys.argv[6]   #long(line5)
 insert6 = int(sys.argv[7])   #key4  (line3)
 insert7 = int(sys.argv[8])   #key5  (line4)
 
+
+
+
 insert5a = float(insert5a)
 insert5b = float(insert5b)
 insert5a = insert5a * 100000
@@ -26,12 +29,14 @@ insert5a = int(insert5a)
 insert5b = int(insert5b)
 
 
+
+
 def check(x):
     temp = str(x)
     if temp[0:1] == "0":
         exit()
 
-check(insert1)
+
 check(insert2)
 check(insert3)
 check(insert4)
@@ -51,149 +56,57 @@ if len1b == 7:
 if len1b == 6:
     insert5b = "11" + str(insert5b)
 
-insert5 = insert5a + insert5b
+insert5 = str(insert5a) + str(insert5b)
 
-print(insert1)
 
-data3 = insert1
-key1 = insert7
-s3 = 0
-e3 = 51
-c3 = 0
-output3 = ""
-length = len(data3)
-while c3 < length:
-    temp = data3[s3:e3]
-    if temp[0:50] == "00000000000000000000000000000000000000000000000000":
-        temp = temp[50:51]
-    elif temp[0:49] == "0000000000000000000000000000000000000000000000000":
-        temp = temp[49:51]
-    elif temp[0:48] == "000000000000000000000000000000000000000000000000":
-        temp = temp[48:51]
-    elif temp[0:47] == "00000000000000000000000000000000000000000000000":
-        temp = temp[47:51]
-    elif temp[0:46] == "0000000000000000000000000000000000000000000000":
-        temp = temp[46:51]
-    elif temp[0:45] == "000000000000000000000000000000000000000000000":
-        temp = temp[45:51]
-    elif temp[0:44] == "00000000000000000000000000000000000000000000":
-        temp = temp[44:51]
-    elif temp[0:43] == "0000000000000000000000000000000000000000000":
-        temp = temp[43:51]
-    elif temp[0:42] == "000000000000000000000000000000000000000000":
-        temp = temp[42:51]
-    elif temp[0:41] == "00000000000000000000000000000000000000000":
-        temp = temp[41:51]
-    elif temp[0:40] == "0000000000000000000000000000000000000000":
-        temp = temp[40:51]
-    elif temp[0:39] == "000000000000000000000000000000000000000":
-        temp = temp[39:51]
-    elif temp[0:38] == "00000000000000000000000000000000000000":
-        temp = temp[38:51]
-    elif temp[0:37] == "0000000000000000000000000000000000000":
-        temp = temp[37:51]
-    elif temp[0:36] == "000000000000000000000000000000000000":
-        temp = temp[36:51]
-    elif temp[0:35] == "00000000000000000000000000000000000":
-        temp = temp[35:51]
-    elif temp[0:34] == "0000000000000000000000000000000000":
-        temp = temp[34:51]
-    elif temp[0:33] == "000000000000000000000000000000000":
-        temp = temp[33:51]
-    elif temp[0:32] == "00000000000000000000000000000000":
-        temp = temp[32:51]
-    elif temp[0:31] == "0000000000000000000000000000000":
-        temp = temp[31:51]
-    elif temp[0:30] == "000000000000000000000000000000":
-        temp = temp[30:51]
-    elif temp[0:29] == "00000000000000000000000000000":
-        temp = temp[29:51]
-    elif temp[0:28] == "0000000000000000000000000000":
-        temp = temp[28:51]
-    elif temp[0:27] == "000000000000000000000000000":
-        temp = temp[27:51]
-    elif temp[0:26] == "00000000000000000000000000":
-        temp = temp[26:51]
-    elif temp[0:25] == "0000000000000000000000000":
-        temp = temp[25:51]
-    elif temp[0:24] == "000000000000000000000000":
-        temp = temp[24:51]
-    elif temp[0:23] == "00000000000000000000000":
-        temp = temp[23:51]
-    elif temp[0:22] == "0000000000000000000000":
-        temp = temp[22:51]
-    elif temp[0:21] == "000000000000000000000":
-        temp = temp[21:51]
-    elif temp[0:20] == "00000000000000000000":
-        temp = temp[20:51]
-    elif temp[0:19] == "0000000000000000000":
-        temp = temp[19:51]
-    elif temp[0:18] == "000000000000000000":
-        temp = temp[18:51]
-    elif temp[0:17] == "00000000000000000":
-        temp = temp[17:51]
-    elif temp[0:16] == "0000000000000000":
-        temp = temp[16:51]
-    elif temp[0:15] == "000000000000000":
-        temp = temp[15:51]
-    elif temp[0:14] == "00000000000000":
-        temp = temp[14:51]
-    elif temp[0:13] == "0000000000000":
-        temp = temp[13:51]
-    elif temp[0:12] == "000000000000":
-        temp = temp[12:51]
-    elif temp[0:11] == "00000000000":
-        temp = temp[11:51]
-    elif temp[0:10] == "0000000000":
-        temp = temp[10:51]
-    elif temp[0:9] == "000000000":
-        temp = temp[9:51]
-    elif temp[0:8] == "00000000":
-        temp = temp[8:51]
-    elif temp[0:7] == "0000000":
-        temp = temp[7:51]
-    elif temp[0:6] == "000000":
-        temp = temp[6:51]
-    elif temp[0:5] == "00000":
-        temp = temp[5:51]
-    elif temp[0:4] == "0000":
-        temp = temp[4:51]
-    elif temp[0:3] == "000":
-        temp = temp[3:51]
-    elif temp[0:2] == "00":
-        temp = temp[2:51]
-    elif temp[0:1] == "0":
-        temp = temp[1:51]
-    temp2 = int(temp) / key1
-    s3 = s3 + 51
-    e3 = e3 + 51
-    c3 = c3 + 51
-    temp2 = str(temp2)
-    if len(temp2) == 1:
-        temp2 = "00" + temp2
-    if len(temp2) == 2:
-        temp2 = "0" + temp2
-    output3 = output3 + str(temp2)
+#data3 = insert1
+#key1 = insert7
+#s3 = 0
+#e3 = 51
+#c3 = 0
+#output3 = ""
+#length = len(data3)
+#while c3 < length:
+#    temp = data3[s3:e3]
+#    temp = int(temp) / key1
+#    temp = str(temp)
+#    s3 = s3 + 51
+#    e3 = e3 + 51
+#    c3 = c3 + 51
+#    if len(temp) == 1:
+#        temp = "00" + temp
+#    if len(temp) == 2:
+#        temp = "0" + temp
+#    output3 = output3 + str(temp)
+output3 = insert1
 
-print output3
 
 data4 = output3
-key2 = insert6
+
+data4 = insert1
+
+key2 = insert5
 num1 = data4[0:3]
 num1 = int(num1)
 length = len(data4)
 data4 = data4[3:length]
 data4b = data4[num1:(num1+16)]
 data4 = data4[0:num1] + data4[(num1 + 16):length]
-if data4b != key2:
+
+data4b = str(data4b)
+key2 = str(key2)
+
+if data4b == key2:
+    data4 = data4
+else:
     print("thief6")
     data4 = "null"
     exit()
-elif data4b == key2:
-    data4 = data4
 
-print data4
-data3 = data4
+print " "
+print output3
+
+data3 = output3
 key1 = insert5
 s3 = 0
 e3 = 35
@@ -272,7 +185,7 @@ while c3 < length:
         temp = temp[2:35]
     elif temp[0:1] == "0":
         temp = temp[1:35]
-    temp2 = int(temp) / key1
+    temp2 = int(temp) / int(key1)
     s3 = s3 + 35
     e3 = e3 + 35
     c3 = c3 + 35
@@ -282,8 +195,10 @@ while c3 < length:
     if len(temp2) == 2:
         temp2 = "0" + temp2
     output3 = output3 + str(temp2)
-print output3
-
+    
+print " "
+print output3    
+    
 data4 = output3
 key2 = insert4
 num1 = data4[0:3]
@@ -299,6 +214,8 @@ if data4b != key2:
 elif data4b == key2:
     data4 = data4
 
+print " "
+print data4
 
 print data4
 data3 = data4

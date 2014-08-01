@@ -33,7 +33,7 @@
 $message = $_POST['message'];
 str_replace(" ", "!", $message);
 //echo($message);
-$result = exec("python bin.py " . $message);
+$result = exec("python bin.py \"" . $message."\"");
 echo $result;
 ?>
 </body>

@@ -1,0 +1,1 @@
+{"filter":false,"title":"texttobinary.py","tooltip":"/Python Conversion Programs/texttobinary.py","ace":{},"undoManager":{"mark":0,"position":-1,"stack":[]},"timestamp":1406883648683,"hash":"a592c037d8b4f491f4e8d06edde04c00b1c142cc"}

@@ -3135,6 +3135,10 @@ while c3 < length:
     elif length33 == 18:
         temp3 = "0" + temp3
     output3 = output3 + str(temp3)
+
+print " "    
+print output3    
+    
 data4 = output3
 key2 = insert4
 length = len(data4) / 2
@@ -3149,98 +3153,99 @@ length = str(length)
 length2 = int(length)
 output4 = length + data4[0:length2] + str(key2) + data4[length2:length3]
 
+print " "
+print output4
 
-
-data5 = output4
-key1 = insert5
-s3 = 0
-e3 = 19
-c3 = 0
+#data5 = output4
+#key1 = insert5
+#s3 = 0
+#e3 = 19
+#c3 = 0
 output7 = ""
-length = len(data5)
-length = length - 1
-while c3 < length:
-    temp = int(data5[s3:e3])
-    temp1 = long(temp1)
-    temp1 = long(temp) * long(key1)
-    temp3 = str(temp1)
-    s3 = s3 + 19
-    e3 = e3 + 19
-    c3 = c3 + 19
-    length33 = len(temp3)
-    if length33 == 1:
-        temp3 = "0000000000000000000000000000000000" + temp3
-    elif length33 == 2:
-        temp3 = "000000000000000000000000000000000" + temp3
-    elif length33 == 3:
-        temp3 = "00000000000000000000000000000000" + temp3
-    elif length33 == 4:
-        temp3 = "0000000000000000000000000000000" + temp3
-    elif length33 == 5:
-        temp3 = "000000000000000000000000000000" + temp3
-    elif length33 == 6:
-        temp3 = "00000000000000000000000000000" + temp3
-    elif length33 == 7:
-        temp3 = "0000000000000000000000000000" + temp3
-    elif length33 == 8:
-        temp3 = "000000000000000000000000000" + temp3
-    elif length33 == 9:
-        temp3 = "00000000000000000000000000" + temp3
-    elif length33 == 10:
-        temp3 = "0000000000000000000000000" + temp3
-    elif length33 == 11:
-        temp3 = "000000000000000000000000" + temp3
-    elif length33 == 12:
-        temp3 = "00000000000000000000000" + temp3
-    elif length33 == 13:
-        temp3 = "0000000000000000000000" + temp3
-    elif length33 == 14:
-        temp3 = "000000000000000000000" + temp3
-    elif length33 == 15:
-        temp3 = "00000000000000000000" + temp3
-    elif length33 == 16:
-        temp3 = "0000000000000000000" + temp3
-    elif length33 == 17:
-        temp3 = "000000000000000000" + temp3
-    elif length33 == 18:
-        temp3 = "00000000000000000" + temp3
-    elif length33 == 19:
-        temp3 = "0000000000000000" + temp3
-    elif length33 == 20:
-        temp3 = "000000000000000" + temp3
-    elif length33 == 21:
-        temp3 = "00000000000000" + temp3
-    elif length33 == 22:
-        temp3 = "0000000000000" + temp3
-    elif length33 == 23:
-        temp3 = "000000000000" + temp3
-    elif length33 == 24:
-        temp3 = "00000000000" + temp3
-    elif length33 == 25:
-        temp3 = "0000000000" + temp3
-    elif length33 == 26:
-        temp3 = "000000000" + temp3
-    elif length33 == 27:
-        temp3 = "00000000" + temp3
-    elif length33 == 28:
-        temp3 = "0000000" + temp3
-    elif length33 == 29:
-        temp3 = "000000" + temp3
-    elif length33 == 30:
-        temp3 = "00000" + temp3
-    elif length33 == 31:
-        temp3 = "0000" + temp3
-    elif length33 == 32:
-        temp3 = "000" + temp3
-    elif length33 == 33:
-        temp3 = "00" + temp3
-    elif length33 == 34:
-        temp3 = "0" + temp3
-    output7 = output7 + str(temp3)
+#length = len(data5)
+#length = length - 1
+#while c3 < length:
+#    temp = int(data5[s3:e3])
+#    temp1 = long(temp1)
+#    temp1 = long(temp) * long(key1)
+#    temp3 = str(temp1)
+#    s3 = s3 + 19
+#    e3 = e3 + 19
+#    c3 = c3 + 19
+#    length33 = len(temp3)
+#    if length33 == 1:
+#        temp3 = "0000000000000000000000000000000000" + temp3
+#    elif length33 == 2:
+#        temp3 = "000000000000000000000000000000000" + temp3
+#    elif length33 == 3:
+#        temp3 = "00000000000000000000000000000000" + temp3
+#    elif length33 == 4:
+#        temp3 = "0000000000000000000000000000000" + temp3
+#    elif length33 == 5:
+#        temp3 = "000000000000000000000000000000" + temp3
+#    elif length33 == 6:
+#        temp3 = "00000000000000000000000000000" + temp3
+#    elif length33 == 7:
+#        temp3 = "0000000000000000000000000000" + temp3
+#    elif length33 == 8:
+#        temp3 = "000000000000000000000000000" + temp3
+#    elif length33 == 9:
+#        temp3 = "00000000000000000000000000" + temp3
+#    elif length33 == 10:
+#        temp3 = "0000000000000000000000000" + temp3
+#    elif length33 == 11:
+#        temp3 = "000000000000000000000000" + temp3
+#    elif length33 == 12:
+#        temp3 = "00000000000000000000000" + temp3
+#    elif length33 == 13:
+#        temp3 = "0000000000000000000000" + temp3
+#    elif length33 == 14:
+#        temp3 = "000000000000000000000" + temp3
+#    elif length33 == 15:
+#        temp3 = "00000000000000000000" + temp3
+#    elif length33 == 16:
+#        temp3 = "0000000000000000000" + temp3
+#    elif length33 == 17:
+#        temp3 = "000000000000000000" + temp3
+#    elif length33 == 18:
+#        temp3 = "00000000000000000" + temp3
+#    elif length33 == 19:
+#        temp3 = "0000000000000000" + temp3
+#    elif length33 == 20:
+#        temp3 = "000000000000000" + temp3
+#    elif length33 == 21:
+#        temp3 = "00000000000000" + temp3
+#    elif length33 == 22:
+#        temp3 = "0000000000000" + temp3
+#    elif length33 == 23:
+#        temp3 = "000000000000" + temp3
+#    elif length33 == 24:
+#        temp3 = "00000000000" + temp3
+#    elif length33 == 25:
+#        temp3 = "0000000000" + temp3
+#    elif length33 == 26:
+#        temp3 = "000000000" + temp3
+#    elif length33 == 27:
+#        temp3 = "00000000" + temp3
+#    elif length33 == 28:
+#        temp3 = "0000000" + temp3
+#    elif length33 == 29:
+#        temp3 = "000000" + temp3
+#    elif length33 == 30:
+#        temp3 = "00000" + temp3
+#    elif length33 == 31:
+#        temp3 = "0000" + temp3
+#    elif length33 == 32:
+#        temp3 = "000" + temp3
+#    elif length33 == 33:
+#        temp3 = "00" + temp3
+#    elif length33 == 34:
+#        temp3 = "0" + temp3
+#    output7 = output7 + str(temp3)
 
 
 data6 = output7
-key2 = insert6
+key2 = insert5
 length = len(data6) / 2
 length3 = len(data6)
 if length >= 1000:
@@ -3254,121 +3259,125 @@ length2 = int(length)
 output6 = length + data6[0:length2] + str(key2) + data6[length2:length3]
 
 
+print " "
+print output6
 
-data7 = output6
-key1 = insert7
-s3 = 0
-e3 = 35
-c3 = 0
-output7 = ""
-length = len(data7)
-while c3 < length:
-    temp = int(data7[s3:e3])
-    temp1 = temp * key1
-    temp3 = str(temp1)
-    s3 = s3 + 35
-    e3 = e3 + 35
-    c3 = c3 + 35
-    length33 = len(temp3)
-    if length33 == 1:
-        temp3 = "00000000000000000000000000000000000000000000000000" + temp3
-    elif length33 == 2:
-        temp3 = "0000000000000000000000000000000000000000000000000" + temp3
-    elif length33 == 3:
-        temp3 = "000000000000000000000000000000000000000000000000" + temp3
-    elif length33 == 4:
-        temp3 = "00000000000000000000000000000000000000000000000" + temp3
-    elif length33 == 5:
-        temp3 = "0000000000000000000000000000000000000000000000" + temp3
-    elif length33 == 6:
-        temp3 = "000000000000000000000000000000000000000000000" + temp3
-    elif length33 == 7:
-        temp3 = "00000000000000000000000000000000000000000000" + temp3
-    elif length33 == 8:
-        temp3 = "0000000000000000000000000000000000000000000" + temp3
-    elif length33 == 9:
-        temp3 = "000000000000000000000000000000000000000000" + temp3
-    elif length33 == 10:
-        temp3 = "00000000000000000000000000000000000000000" + temp3
-    elif length33 == 11:
-        temp3 = "0000000000000000000000000000000000000000" + temp3
-    elif length33 == 12:
-        temp3 = "000000000000000000000000000000000000000" + temp3
-    elif length33 == 13:
-        temp3 = "00000000000000000000000000000000000000" + temp3
-    elif length33 == 14:
-        temp3 = "0000000000000000000000000000000000000" + temp3
-    elif length33 == 15:
-        temp3 = "000000000000000000000000000000000000" + temp3
-    elif length33 == 16:
-        temp3 = "00000000000000000000000000000000000" + temp3
-    elif length33 == 17:
-        temp3 = "0000000000000000000000000000000000" + temp3
-    elif length33 == 18:
-        temp3 = "000000000000000000000000000000000" + temp3
-    elif length33 == 19:
-        temp3 = "00000000000000000000000000000000" + temp3
-    elif length33 == 20:
-        temp3 = "0000000000000000000000000000000" + temp3
-    elif length33 == 21:
-        temp3 = "000000000000000000000000000000" + temp3
-    elif length33 == 22:
-        temp3 = "00000000000000000000000000000" + temp3
-    elif length33 == 23:
-        temp3 = "0000000000000000000000000000" + temp3
-    elif length33 == 24:
-        temp3 = "000000000000000000000000000" + temp3
-    elif length33 == 25:
-        temp3 = "00000000000000000000000000" + temp3
-    elif length33 == 26:
-        temp3 = "0000000000000000000000000" + temp3
-    elif length33 == 27:
-        temp3 = "000000000000000000000000" + temp3
-    elif length33 == 28:
-        temp3 = "00000000000000000000000" + temp3
-    elif length33 == 29:
-        temp3 = "0000000000000000000000" + temp3
-    elif length33 == 30:
-        temp3 = "000000000000000000000" + temp3
-    elif length33 == 31:
-        temp3 = "00000000000000000000" + temp3
-    elif length33 == 32:
-        temp3 = "0000000000000000000" + temp3
-    elif length33 == 33:
-        temp3 = "000000000000000000" + temp3
-    elif length33 == 34:
-        temp3 = "00000000000000000" + temp3
-    elif length33 == 35:
-        temp3 = "0000000000000000" + temp3
-    elif length33 == 36:
-        temp3 = "000000000000000" + temp3
-    elif length33 == 37:
-        temp3 = "00000000000000" + temp3
-    elif length33 == 38:
-        temp3 = "0000000000000" + temp3
-    elif length33 == 39:
-        temp3 = "000000000000" + temp3
-    elif length33 == 40:
-        temp3 = "00000000000" + temp3
-    elif length33 == 41:
-        temp3 = "0000000000" + temp3
-    elif length33 == 42:
-        temp3 = "000000000" + temp3
-    elif length33 == 43:
-        temp3 = "00000000" + temp3
-    elif length33 == 44:
-        temp3 = "0000000" + temp3
-    elif length33 == 45:
-        temp3 = "000000" + temp3
-    elif length33 == 46:
-        temp3 = "00000" + temp3
-    elif length33 == 47:
-        temp3 = "0000" + temp3
-    elif length33 == 48:
-        temp3 = "000" + temp3
-    elif length33 == 49:
-        temp3 = "00" + temp3
-    elif length33 == 50:
-        temp3 = "0" + temp3
-    output7 = output7 + str(temp3)
-print(output7)
+#data7 = output7
+#key1 = insert7
+#s3 = 0
+#e3 = 35
+#c3 = 0
+#output7 = ""
+#length = len(data7)
+#while c3 < length:
+#    temp = int(data7[s3:e3])
+#    temp1 = temp * key1
+#    temp3 = str(temp1)
+#    s3 = s3 + 35
+#    e3 = e3 + 35
+#    c3 = c3 + 35
+#    length33 = len(temp3)
+#    if length33 == 1:
+#        temp3 = "00000000000000000000000000000000000000000000000000" + temp3
+#    elif length33 == 2:
+#        temp3 = "0000000000000000000000000000000000000000000000000" + temp3
+#    elif length33 == 3:
+#        temp3 = "000000000000000000000000000000000000000000000000" + temp3
+#    elif length33 == 4:
+#        temp3 = "00000000000000000000000000000000000000000000000" + temp3
+#    elif length33 == 5:
+#        temp3 = "0000000000000000000000000000000000000000000000" + temp3
+#    elif length33 == 6:
+#        temp3 = "000000000000000000000000000000000000000000000" + temp3
+#    elif length33 == 7:
+#        temp3 = "00000000000000000000000000000000000000000000" + temp3
+#    elif length33 == 8:
+#        temp3 = "0000000000000000000000000000000000000000000" + temp3
+#    elif length33 == 9:
+#        temp3 = "000000000000000000000000000000000000000000" + temp3
+#    elif length33 == 10:
+#        temp3 = "00000000000000000000000000000000000000000" + temp3
+#    elif length33 == 11:
+#        temp3 = "0000000000000000000000000000000000000000" + temp3
+#    elif length33 == 12:
+#        temp3 = "000000000000000000000000000000000000000" + temp3
+#    elif length33 == 13:
+#        temp3 = "00000000000000000000000000000000000000" + temp3
+#    elif length33 == 14:
+#        temp3 = "0000000000000000000000000000000000000" + temp3
+#    elif length33 == 15:
+#        temp3 = "000000000000000000000000000000000000" + temp3
+#    elif length33 == 16:
+#        temp3 = "00000000000000000000000000000000000" + temp3
+#    elif length33 == 17:
+#        temp3 = "0000000000000000000000000000000000" + temp3
+#    elif length33 == 18:
+ #       temp3 = "000000000000000000000000000000000" + temp3
+#    elif length33 == 19:
+#        temp3 = "00000000000000000000000000000000" + temp3
+#    elif length33 == 20:
+#        temp3 = "0000000000000000000000000000000" + temp3
+#    elif length33 == 21:
+#        temp3 = "000000000000000000000000000000" + temp3
+#    elif length33 == 22:
+#        temp3 = "00000000000000000000000000000" + temp3
+#    elif length33 == 23:
+#        temp3 = "0000000000000000000000000000" + temp3
+#    elif length33 == 24:
+#        temp3 = "000000000000000000000000000" + temp3
+#    elif length33 == 25:
+#        temp3 = "00000000000000000000000000" + temp3
+#    elif length33 == 26:
+#        temp3 = "0000000000000000000000000" + temp3
+#    elif length33 == 27:
+#        temp3 = "000000000000000000000000" + temp3
+#    elif length33 == 28:
+#        temp3 = "00000000000000000000000" + temp3
+#    elif length33 == 29:
+#        temp3 = "0000000000000000000000" + temp3
+#    elif length33 == 30:
+ #       temp3 = "000000000000000000000" + temp3
+ #   elif length33 == 31:
+#        temp3 = "00000000000000000000" + temp3
+#    elif length33 == 32:
+#        temp3 = "0000000000000000000" + temp3
+#    elif length33 == 33:
+#        temp3 = "000000000000000000" + temp3
+#    elif length33 == 34:
+#        temp3 = "00000000000000000" + temp3
+#    elif length33 == 35:
+#        temp3 = "0000000000000000" + temp3
+#    elif length33 == 36:
+#        temp3 = "000000000000000" + temp3
+#    elif length33 == 37:
+#        temp3 = "00000000000000" + temp3
+#    elif length33 == 38:
+#       temp3 = "0000000000000" + temp3
+#    elif length33 == 39:
+#        temp3 = "000000000000" + temp3
+#    elif length33 == 40:
+#        temp3 = "00000000000" + temp3
+#    elif length33 == 41:
+#        temp3 = "0000000000" + temp3
+#    elif length33 == 42:
+#        temp3 = "000000000" + temp3
+#    elif length33 == 43:
+#        temp3 = "00000000" + temp3
+ #   elif length33 == 44:
+#        temp3 = "0000000" + temp3
+#    elif length33 == 45:
+#        temp3 = "000000" + temp3
+#    elif length33 == 46:
+#        temp3 = "00000" + temp3
+#    elif length33 == 47:
+#        temp3 = "0000" + temp3
+#    elif length33 == 48:
+#        temp3 = "000" + temp3
+#    elif length33 == 49:
+#        temp3 = "00" + temp3
+#    elif length33 == 50:
+#        temp3 = "0" + temp3
+#    output7 = output7 + str(temp3)
+#    
+#print " "
+#print(output7)

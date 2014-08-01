@@ -11,11 +11,11 @@ def main():
         if i != '0' and i != '1' and i != ' ':                #If not binary, run text to binary.
             binary = False
     
-    for i in message:
-        count = count + 1 
-        if i == '!':
-            #message[count] = ' '
-            message = message.replace('!', '_')
+    #for i in message:
+    #    count = count + 1 
+    #    if i == '!':
+    #        #message[count] = ' '
+    #        message = message.replace('!', '_')
             
     #for i in message:
     #    count++

@@ -18,7 +18,7 @@ MORSE ={'a': '.-',     'b': '-...',   'c': '-.-.',
         '0': '-----',  '1': '.----',  '2': '..---',
         '3': '...--',  '4': '....-',  '5': '.....',
         '6': '-....',  '7': '--...',  '8': '---..',
-        '9': '----.',
+        '9': '----.', 
         }
 
 MORSE3={'.-' : 'a',    '-...' : 'b',  '-.-.' : 'c',
@@ -34,7 +34,7 @@ MORSE3={'.-' : 'a',    '-...' : 'b',  '-.-.' : 'c',
         '-----' : '0', '.----' : '1', '..---' : '2',
         '...--' : '3', '....-' : '4', '.....' : '5',
         '-....' : '6', '--...' : '7', '---..' : '8',
-        '----.' : '9'
+        '----.' : '9',
         }
 
 def main():
@@ -42,12 +42,13 @@ def main():
     output = ''                     #The output string.
     morse = ''
     message = sys.argv[1]
-    
     message = message.lower() + ' '
+    #print (message)
     #message = raw_input('Enter message: ').lower() + ' '        #Message to lower case.
     for i in message:                                   #For each character in message:
         if i != '.' and i != '-' and i != ' ':                #If not binary, run text to binary.
             binary = False
+
     if binary == True:                          #If binary,
         message2 = message.split(" ")           #Look for spaces and add the characters between the spaces to a list.
         #print (message2)           #DEBUG
@@ -62,8 +63,8 @@ def main():
         for i in message:               #If it's not binary, then it must be characters, so for each character:
             if i in MORSE:              #If it's recognised, add it's value to the output string
                 output = output + MORSE[i] + ' '
-            else:
-                output = output + ' '       #Otherwise add a space
+            else:                           #Otherwise add a space
+                output = output + ' '
     print(output)                   #Print the output string.
 
 if __name__ == '__main__':
