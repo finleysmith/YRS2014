@@ -1,6 +1,6 @@
 <HTML>
 <HEAD>
-<TITLE>Encryted</title>
+<TITLE>Decryted</title>
 <meta tag="robots" value="noindex, nofollow">
 <style type="text/css">
     @import url('css/fonts/stylesheet.css');
@@ -79,7 +79,7 @@ echo("Postcode: " . $post);
 
 
 
-echo("<h1>Your encrypted data:</h1>");
+echo("<h1>Your decrypted data:</h1>");
 //$shit = ernest_marples($post); //run function as shit
 //echo("DEBUG NOTRH EAST " . $shit['northing'] . "     " . $shit['easting']);
 //echo("Lan: " . $shit['lat'] . "  Lng: " . $shit['lng']);
@@ -90,9 +90,9 @@ $lng = $shit['lng'];
 
 //$result = exec("python to.py " . $data . ' ' . $comp . ' ' . $key1 . ' ' . $key2 . ' ' . $lat . ' ' . $lng . ' ' .  $key3 . ' ' . $key4);
 //echo $result;
-//echo("python en.py " . $data . ' ' . $comp . ' ' . $key1 . ' ' . $key2 . ' ' . $lat . ' ' . $lng . ' ' .  $key3 . ' ' . $key4);
-$lastline = system("python en.py " . $data . ' ' . $comp . ' ' . $key1 . ' ' . $key2 . ' ' . $lat . ' ' . $lng . ' ' .  $key3 . ' ' . $key4, $returnval); //run command
-//echo('<p class="hi">' . $lastline . '</p>');
+echo("DEBUG COMMAND: " . "python de.py " . $data . ' ' . $comp . ' ' . $key1 . ' ' . $key2 . ' ' . $lat . ' ' . $lng . ' ' .  $key3 . ' ' . $key4);
+$lastline = system("python de.py " . $data . ' ' . $comp . ' ' . $key1 . ' ' . $key2 . ' ' . $lat . ' ' . $lng . ' ' .  $key3 . ' ' . $key4, $returnval); //run command
+echo('<p class="hi">' . $lastline . '</p>');
 
 
 
@@ -100,11 +100,7 @@ echo("<br><h1>Latitude and Longitiude</h1>" . $lat . "             " . $lng);
 
 
 ?>
-<div id="map" style="border: 1px solid black; width:540px; height:440px;"></div>
-<script type="text/javascript">
-$( document ).ready(function() {
-    initmapbuilder();
-});</script>
+
 
 </body>
 </html>

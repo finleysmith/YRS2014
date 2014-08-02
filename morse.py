@@ -60,11 +60,17 @@ def main():
             else:
                 output = output + ' '           #If it's not recognised, add a space.
     else:
+        #print (message)
         for i in message:               #If it's not binary, then it must be characters, so for each character:
             if i in MORSE:              #If it's recognised, add it's value to the output string
                 output = output + MORSE[i] + ' '
             else:                           #Otherwise add a space
                 output = output + ' '
+        #output = output.replace('_',' ')
+        #for i in output:
+        #    if i == '_':
+        #        output[i] = ' '
+
     print(output)                   #Print the output string.
 
 if __name__ == '__main__':

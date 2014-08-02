@@ -128,25 +128,25 @@ osMap.setCenter(new OpenSpace.MapPoint(590522.43161111,162328),11);}
                     <div class="carousel-text-content">
                       <h2 class="title">Encrypt</h2>
                       <p>Use state of the art technology</p></p>
-                      <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-2');" class="btn btn-outline-inverse btn-sm">encrypt</a></p>
+                      <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-1');" class="btn btn-outline-inverse btn-sm">encrypt</a></p>
 
-                      <div class="content-to-populate-in-modal" id="modal-content-2">
+                      <div class="content-to-populate-in-modal" id="modal-content-1">
                         <h1>Encrypt</h1>
                         <div id="stupidmodal">
                         <form class="form-style validate-form clearfix" action="encrypt.php" method="POST">
                           <!-- form left col -->
                           <div class="col-md-6">
                             <div class="form-group">
-                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key1" placeholder="Key 1" name="key1">
+                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key1" placeholder="Key 1 (Numbers Only)" name="key1">
                             </div>  
                             <div class="form-group">
-                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key2" placeholder="Key 2" name="key2">
+                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key2" placeholder="Key 2 (Numbers Only)" name="key2">
                             </div>
                             <div class="form-group">
-                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key3" placeholder="Key 3" name="key3">
+                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key3" placeholder="Key 3 (Numbers Only)" name="key3">
                             </div>  
                             <div class="form-group">
-                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key4" placeholder="Key 4" name="key4">
+                              <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key4" placeholder="Key 4 (Numbers Only)" name="key4">
                             </div>
                             <div class="form-group">
                               <input type="text" class="text-field form-control validate-field required" data-validation-type="phone" id="form-key5" placeholder="Postcode" name="post">
@@ -187,7 +187,7 @@ osMap.setCenter(new OpenSpace.MapPoint(590522.43161111,162328),11);}
                         <h1>Decrypt</h1>
                         <h5>Please make sure the keys are 16 digits long</h5>
                         <div id="stupidmodal">
-                        <form class="form-style validate-form clearfix" action="encrypt.php" method="POST">
+                        <form class="form-style validate-form clearfix" action="decrypt.php" method="POST">
                           <!-- form left col -->
                           <div class="col-md-6">
                             <div class="form-group">
@@ -251,7 +251,7 @@ osMap.setCenter(new OpenSpace.MapPoint(590522.43161111,162328),11);}
             <div class="col-sm-10 col-md-9 pull-right">
 
                 <h1 class="section-title">Text to Binary/Morse Converter</h1>
-                <p class="feature-paragraph">Wanna have some binary or your does of morse? Get it here.</p>
+                <p class="feature-paragraph">Wanna have some binary or your does of morse? Get it here.  NOTE: ", £ and $ will not translate. </p>
                 <div class="col-md-6">
                   <form class="form-style clearfix" action="binary.php" method="POST">
                       <div class="form-group">
